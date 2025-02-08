@@ -1,0 +1,13 @@
+import '../css/GameBoard.css';
+
+export default function GameBoard() {
+  return (
+    <div className='board'>
+      <div className='target'></div>
+      <div className="prompt-options">
+	<p className='prompt'>Guess the color of the card above by selecting a color from this options</p>
+	<div className='options'></div>
+      </div>
+    </div>
+  );
+}

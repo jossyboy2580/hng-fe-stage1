@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.2);
+}
+
+header .app-logo {
+  padding: 0.5em 0.7em;
+  width: 100px;
+}
+
+header .actions-info {
+  padding: 0.5em 0.7em;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.actions-info * {
+  height: fit-content;
+}
+
+.score {
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.reset-btn {
+  cursor: pointer;
+  padding: 0.7em 1em;
+  color: white;
+  background-color: rgb(173, 115, 7);
+  border: 2px solid rgb(173, 115, 7);
+  font-size: 1em;
+}

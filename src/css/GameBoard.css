@@ -1,0 +1,32 @@
+.board {
+  background: white;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 2px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.board .target-color {
+  height: 150px;
+  border-radius: 0.5em;
+  border: 2px solid white;
+  box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 4px 2px rgb(255, 255, 255);
+  font-size: 2em;
+  display: grid;
+  place-content: center;
+}
+
+.prompt {
+  padding: 0.7em;
+  font-size: 1.3em;
+}
+
+.color-options {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
